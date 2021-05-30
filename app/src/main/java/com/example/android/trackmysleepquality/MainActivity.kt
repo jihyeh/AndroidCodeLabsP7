@@ -28,3 +28,16 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 }
+
+/**
+ * Codelab : DiffUtil and data binding with RecyclerView
+ * https://developer.android.com/codelabs/kotlin-android-training-diffutil-databinding/?hl=ko#10
+ *
+ * Q1. Which of the following are necessary to use DiffUtil? Select all that apply.
+ *  > Override areItemsTheSame(), Override areContentsTheSame()
+ * Q2. Which of the following are true about binding adapters?
+ *  > A binding adapter is a function annotated with @BindingAdapter.
+ *  > Using a binding adapter allows you to separate data formatting from the view holder.
+ * Q3. When should you consider using Transformations instead of a binding adapter? Select all that apply.
+ *  > Your data is simple, You are formatting a string.
+ * */
